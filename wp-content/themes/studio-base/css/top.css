@@ -1,0 +1,74 @@
+/* 共通 */
+li {
+    list-style: none;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo-img {
+    width: 5vw;
+}
+
+#gnav {
+    background-color: aliceblue;
+    padding: 1.5rem;
+}
+
+#gnav ul {
+    overflow: hidden;
+}
+
+.inner {
+    display: flex;
+    justify-content: right;
+}
+
+#gnav .inner_child {
+    margin-left: 20px;
+}
+
+/* news */
+
+.topNewsArea {
+    margin: 0 auto;
+    padding: 5.0rem 0;
+}
+
+.NewsGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 0;
+}
+
+.news-text {
+    font-size: 3.0rem;
+    margin: 50px 0 10px 10px;
+    letter-spacing: 0.3rem;
+}
+
+.news-subtext {
+    margin: 0 0 10px 12px;
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+}
+
+.news {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 300px
+}
+
+.news-title {
+    font-size: 1.5rem;
+    border-bottom: 1px solid;
+    padding: 1rem;
+}
