@@ -186,3 +186,76 @@ header {
     font-weight: normal;
     line-height: 2.5;
 }
+
+
+
+/* footer */
+.footer {
+    background-color: #EEE;
+    padding: 2.8rem 0;
+}
+
+.footer-area {
+    text-align: center;
+    margin: 0 0 2.1875rem;
+}
+
+.logo-img-footer {
+    width: 4.5vw;
+    margin-top: 2.0rem;
+}
+
+.footer-menu {
+    padding: 1.6rem 0;
+    background-color: rgba(0, 60, 51, 1);
+}
+
+.footer-text {
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 1.0625rem;
+}
+
+.footer-menu-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu-text {
+    padding: 0 1.7rem;
+    color: #FFF;
+    width: auto;
+    border-right: 2px rgba(70, 126, 117, 1) solid;
+    letter-spacing: 0.05rem;
+}
+
+
+.footer-sitemap {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sns-area-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.sns-icon-footer {
+    width: 2.5rem;
+}
+
+.copylight-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.cp-menu-list {
+    border-right: 2px rgba(188, 187, 187, 1) solid;
+    margin: 0 calc(1.6rem + ((1vw - 0.375rem) * 3.3882)) 0 0;
+    padding: 0 calc(0.8rem + ((1vw - 0.375rem) * 0.7529)) 0 0;
+    width: auto;
+}
+
+.copymenu {
+    display: block;
+}
