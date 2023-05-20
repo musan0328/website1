@@ -1,4 +1,8 @@
 /* 共通 */
+html {
+    line-height: 1.15;
+}
+
 li {
     list-style: none;
 }
@@ -15,12 +19,26 @@ header {
 }
 
 #gnav {
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 1);
     padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 0 20px;
 }
 
 #gnav ul {
     overflow: hidden;
+}
+
+.inner-area {
+    display: flex;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: row;
 }
 
 .inner {
@@ -30,6 +48,53 @@ header {
 
 #gnav .inner_child {
     margin-left: 20px;
+}
+
+.header-tell {
+    display: block;
+    text-align: right;
+    margin: 0 0 0.5rem;
+}
+
+.tell-icon {
+    width: 3.0rem;
+}
+
+.contact-area {
+    width: 7rem;
+    height: 5rem;
+    line-height: 1.7rem;
+    display: block;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(0, 60, 51, 1);
+    border: 1px rgba(0, 60, 51, 1) solid;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #FFF
+}
+
+.contact-link:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 60, 51, 1);
+}
+
+
+.sns-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.twitter-icon, .insta-icon {
+    width: 3.0rem;
 }
 
 /* news */
@@ -47,6 +112,11 @@ header {
     padding: 0;
 }
 
+.NewsContent {
+    margin-top: 10rem;
+}
+
+
 .news-text {
     font-size: 3.0rem;
     margin: 50px 0 10px 10px;
@@ -63,8 +133,6 @@ header {
     display: block;
     max-width: 500px;
     width: 100%;
-    margin: 0 auto;
-    margin-top: 300px
 }
 
 .news-title {
