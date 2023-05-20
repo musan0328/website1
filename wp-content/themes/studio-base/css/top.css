@@ -190,12 +190,20 @@ header {
     margin: 0 0 1.5rem;
 }
 
+.Adb-text-image {
+    display: flex;
+    flex-direction: row;
+}
+
 .topAbd-text {
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
+    line-height: 2.5;
 }
 
-
+.top-img {
+    width: 50vw;
+}
 
 
 /* news */

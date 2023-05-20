@@ -24,12 +24,31 @@
                     </div>
                 </div>
                 <div class="topAdb">
-                    <h2 class="topAdb-title">デザインに美しさと機能性を</h2>
-                    <p class="topAbd-text">
-                        真心込めて作ったおにぎりはいかが? <br class="pc_only">
-                        美味しいおにぎりのために私たちはおにぎりの素材はもちろん、<br class="pc_only">
-                        製造方法にもこだわりをもっています。
-                    </p>
+                    <h2 class="topAdb-title">新鮮な美味しさをお届けする</h2>
+                    <div class="Adb-text-image">
+                        <p class="topAbd-text">
+                            真心込めて作ったおにぎりはいかが? <br class="pc_only">
+                            美味しいおにぎりのために私たちはおにぎりの素材はもちろん、<br class="pc_only">
+                            製造方法にもこだわりをもっています。
+                        </p>
+                        <div class="top-img-area">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/onigiri-image.jpg" alt="おにぎり画像" class="top-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="topAdbCompany">
+                    <div class="topAdbComp-Area">
+                        <div class="topAdb-Conpany-detail">
+                            <div class="topAdb-text-area">
+                                    <span>株式会社おにぎりや</span>
+                                    <h3>代表取締役 <span>山田太郎</span></h3>
+                                    <p>
+                                        静岡県浜松市出身 食品メーカーに入社後、惣菜部会社代表、及び各店舗の責任者になる。
+                                        2022年10月「株式会社おにぎりや」を創業する。
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
