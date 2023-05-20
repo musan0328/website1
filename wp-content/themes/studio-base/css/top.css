@@ -3,6 +3,10 @@ html {
     line-height: 1.15;
 }
 
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 li {
     list-style: none;
 }
@@ -36,6 +40,13 @@ header {
     display: flex;
 }
 
+.header-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+}
+
 .flex-area {
     display: flex;
     flex-direction: row;
@@ -46,6 +57,13 @@ header {
     justify-content: right;
 }
 
+.inner_text {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgba(41, 41, 41, 1);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 #gnav .inner_child {
     margin-left: 20px;
 }
@@ -53,6 +71,11 @@ header {
 .header-tell {
     display: block;
     text-align: right;
+    color: rgba(0, 60, 51, 1);
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.625rem;
+    font-weight: 600;
     margin: 0 0 0.5rem;
 }
 
@@ -65,6 +88,7 @@ header {
     height: 5rem;
     line-height: 1.7rem;
     display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact-link {
@@ -94,7 +118,8 @@ header {
 }
 
 .twitter-icon, .insta-icon {
-    width: 3.0rem;
+    width: 2.7rem;
+    padding-left: 0.5rem;
 }
 
 /* news */
@@ -104,29 +129,37 @@ header {
     padding: 5.0rem 0;
 }
 
+.NewsArea {
+    margin: 0 4.375rem 0 0;
+    width: 150px;
+}
+
 .NewsGroup {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 650px;
     padding: 0;
+    margin: 0 auto;
+    margin-top: 5.0rem
 }
 
 .NewsContent {
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
-
 .news-text {
-    font-size: 3.0rem;
+    font-size: 2.7rem;
     margin: 50px 0 10px 10px;
     letter-spacing: 0.3rem;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .news-subtext {
     margin: 0 0 10px 12px;
     font-size: 1.1rem;
     letter-spacing: 0.3rem;
+    font-family: 'Noto Serif JP', serif;
 }
 
 .news {
@@ -135,8 +168,21 @@ header {
     width: 100%;
 }
 
+.news-day {
+    color: rgba(0, 60, 51, 1);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 1.875rem 0 0;
+    margin-top: 1.0rem;
+    width: 7em;
+}
+
+
 .news-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-bottom: 1px solid;
     padding: 1rem;
+    padding: 0 5rem 0 0;
+    font-weight: normal;
+    line-height: 2.5;
 }

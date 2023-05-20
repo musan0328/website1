@@ -8,7 +8,7 @@
             </div>
             <div class="NewsContent">
                 <div class="news">
-                    <a href="">
+                    <a href="#">
                         <dl class="news-area">
                                 <dt class="news-day">2022.05.01</dt>
                                 <dt class="news-title">新しいメニューができました。</dt>
