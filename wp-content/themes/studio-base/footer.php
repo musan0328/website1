@@ -14,11 +14,11 @@
         <div class="footer-menu-detail">
             <ul class="footer-menu-list">
                 <li class="footer-menu-text">studio baseとは</li>
+                <li class="footer-menu-text">こだわり</li>
                 <li class="footer-menu-text">メニュー</li>
                 <li class="footer-menu-text">新着情報</li>
-                <li class="footer-menu-text">施工事例</li>
-                <li class="footer-menu-text">完成までの流れ</li>
-                <li class="footer-menu-text">お問い合わせ・面談予約</li>
+                <li class="footer-menu-text">店舗情報</li>
+                <li class="footer-menu-text">お問い合わせ</li>
             </ul>
         </div>
     </div>
@@ -30,8 +30,8 @@
                     <li lass="sns-area-detail"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="twitterアイコン" alt="" class="sns-icon-footer"></a></li>
                 </ul>
             </div>
-            <div class="footer-copylight">
-                <ul class="copylight-menu">
+            <div class="footer-copyright">
+                <ul class="copyright-menu">
                     <li class="cp-menu-list">
                         <a href="" class="copymenu">プライバシーポリシー</a>
                     </li>
@@ -39,6 +39,9 @@
                         <a href="" class="copymenu">サイトマップ</a>
                     </li>
                 </ul>
+                <div class="copyright-text">
+                    <p class="cpr-text">Copyright © studio base<span class="cpr-text2">All Rights Reserved.</span></p>
+                </div>
             </div>
         </div>
     </div>

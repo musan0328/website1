@@ -11,6 +11,11 @@ li {
     list-style: none;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 /* header */
 header {
     position: fixed;
@@ -27,23 +32,23 @@ header {
     padding: 1.5rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 0 0 20px;
+    justify-content: space-around;
 }
 
 #gnav ul {
     overflow: hidden;
 }
 
-.inner-area {
+.inner-main-area {
     display: flex;
+    justify-content: right;
 }
 
 .header-box {
     display: flex;
     flex-direction: row;
-    margin-top: 2.8rem;
     margin-left: 2rem;
 }
 
@@ -54,6 +59,7 @@ header {
 
 .inner {
     display: flex;
+    /* 右寄せ */
     justify-content: right;
 }
 
@@ -83,12 +89,23 @@ header {
     width: 3.0rem;
 }
 
+.header-menu-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-main-area {
+    display: flex;
+    justify-content: right;
+}
+
 .contact-area {
     width: 7rem;
     height: 5rem;
     line-height: 1.7rem;
     display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 2.0rem;
 }
 
 .contact-link {
@@ -122,11 +139,70 @@ header {
     padding-left: 0.5rem;
 }
 
+
+/* main */
+
+.top-main-area {
+    margin: 11rem 0 3rem;
+}
+
+.main-visual {
+    margin-left: 5.0rem;
+}
+
+.main-text-viarea {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    /* height: 250px; */
+}
+
+.topMvText {
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 0 0.7em;
+    line-height: 2.5rem;
+}
+
+.top-image-sign-area {
+    margin: 0;
+    padding: 0 0 0 1.0rem;
+}
+
+.main-icon-shop {
+    padding: 0 0 0 3.75rem;
+    width: 15vw;
+    position: relative;
+    z-index: 999;
+}
+
+.main-visual-top {
+    width: 60vw;
+    position: relative;
+    left: 9rem;
+    top: -6rem;
+    z-index: 998;
+}
+
+
+.topAdb-title {
+    font-size: calc(1.25rem + ((1vw - 0.375rem) * 2.3529));
+    margin: 0 0 1.5rem;
+}
+
+.topAbd-text {
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
 /* news */
 
 .topNewsArea {
     margin: 0 auto;
-    padding: 5.0rem 0;
+    padding: 2rem 0 3rem;
 }
 
 .NewsArea {
@@ -138,14 +214,14 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 650px;
+    /* max-width: 650px; */
     padding: 0;
     margin: 0 auto;
-    margin-top: 5.0rem
 }
 
 .NewsContent {
     margin-top: 2rem;
+    width: calc((100% - 4rem) - 200px);
 }
 
 .news-text {
@@ -164,8 +240,30 @@ header {
 
 .news {
     display: block;
-    max-width: 500px;
-    width: 100%;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+
+
+.news-area-main {
+    /* display: flex; */
+}
+
+.news-link:after {
+    border-top: 2px rgba(0, 60, 51, 1) solid;
+    border-right: 2px rgba(0, 60, 51, 1) solid;
+    content: "";
+    display: inline-block;
+    left: calc(100% - 13px);
+    top: 50%;
+    transform: translateY(-50%) rotateZ(45deg);
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.news-area {
+    display: flex;
+    flex-direction: row;
+    padding: 0.7rem 0;
 }
 
 .news-day {
@@ -179,12 +277,10 @@ header {
 
 
 .news-title {
-    font-size: 1.2rem;
-    border-bottom: 1px solid;
+    font-size: 1.1rem;
     padding: 1rem;
-    padding: 0 5rem 0 0;
     font-weight: normal;
-    line-height: 2.5;
+    letter-spacing: 0.05rem;
 }
 
 
@@ -244,7 +340,7 @@ header {
     width: 2.5rem;
 }
 
-.copylight-menu {
+.copyright-menu {
     display: flex;
     flex-direction: row;
 }
@@ -258,4 +354,8 @@ header {
 
 .copymenu {
     display: block;
+}
+
+.cpr-text {
+    text-align: center;
 }
