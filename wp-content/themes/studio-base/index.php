@@ -77,7 +77,7 @@
                 <div class="news">
                         <a href="#" class="news-link">
                             <div class="news-area">
-                                    <p class="news-day">2022.05.01</dt>
+                                    <p class="news-day">2023.05.01</dt>
                                     <p class="news-title">新しいメニューができました。</dt>
                             </div>
                         </a>
@@ -85,7 +85,7 @@
                 <div class="news">
                     <a href="#" class="news-link">
                         <div class="news-area">
-                                <p class="news-day">2022.4.10</dt>
+                                <p class="news-day">2023.04.10</dt>
                                 <p class="news-title">花見に行きました。</dt>
                         </div>
                     </a>
@@ -93,8 +93,8 @@
                 <div class="news">
                     <a href="#" class="news-link">
                         <div class="news-area">
-                                <p class="news-day">2022.1.01</dt>
-                                <p class="news-title">2022年もよろしくお願いします。</dt>
+                                <p class="news-day">2023.01.01</dt>
+                                <p class="news-title">2023年もよろしくお願いします。</dt>
                         </div>
                     </a>
                 </div>
@@ -165,8 +165,8 @@
                                 営業時間/ 8:30~17:00 定休日/月曜日・木曜日
                         </p>
                         <div class="com-tell-area">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/tell-icon.png" alt="電話アイコン" class="tell-icon">
-                            <p><a href=""><span>0120-345-6789</span></a></p>
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/tell-icon.png" alt="電話アイコン" class="com-tell-icon">
+                            <p class="tell-bango-area"><a href="#"><span class="tell-bango">0120-345-6789</span></a></p>
                         </div>
                     </div>
                 </div>
@@ -181,6 +181,32 @@
             </div>
         </div>
     </div>
+    <!-- アクセス・SNSエリア -->
+    <div class="top-access-sns-main">
+        <div class="top-access-sns-area">
+            <div class="access-sns-box">
+                <div class="access-main-top">
+                    <h3 class="acsns-text">ACCESS</h3>
+                    <div class="access-top">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.095727279477!2d137.7212877932684!3d34.72798136324085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade566e6d2ee7%3A0x87c7bf0495fa178!2z44CSNDMwLTA5MDYg6Z2Z5bKh55yM5rWc5p2-5biC5Lit5Yy65L2P5ZCJ77yR5LiB55uu77yR77yU!5e0!3m2!1sja!2sjp!4v1684651122970!5m2!1sja!2sjp" width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="sns-main-top">
+                    <h3 class="acsns-text">TWITTER</h3>
+                    <div class="twitter-top">
+                    <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500" data-theme="light" href="https://twitter.com/yamamurata73235?ref_src=twsrc%5Etfw">Tweets by yamamurata73235</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Btn-area">
+                <div class="more-btn-asns">
+                    <a href="#" class="btn-desin">
+                        <span class="btn-text">業務内容はこちら</span>
+                    </a>
+                </div>
+        </div>
     
     <!-- 投稿した記事を取得する -->
     <?php if(have_posts()): while (have_posts()):the_post(); ?>

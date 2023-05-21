@@ -185,6 +185,7 @@ header {
     left: 9rem;
     top: -6rem;
     z-index: 998;
+    object-fit: cover;
 }
 
 .message-area {
@@ -486,6 +487,8 @@ header {
 
 .company-area-main {
     margin: 5rem 0;
+    position: relative;
+    z-index: 9999;
 }
 
 .company-area {
@@ -494,7 +497,11 @@ header {
 }
 
 .company-detail-rogo {
-    margin-bottom: 3rem;
+    margin: 5rem 0;
+}
+
+.top-company-detail {
+    margin-top: -4rem;
 }
 
 .com-rogo-top {
@@ -512,6 +519,28 @@ header {
     margin-right: 4rem;
 }
 
+.com-tell-area {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+
+.com-tell-icon {
+    width: 2.5rem;
+}
+
+.tell-bango-area {
+    margin-top: 0.5rem;
+}
+
+.tell-bango {
+    font-size: 1.7rem;
+    color: rgba(0, 60, 51, 1);
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+}
+
 .com-image-main {
     display: flex;
     flex-direction: row;
@@ -519,12 +548,56 @@ header {
 }
 
 .com-images {
-    width: 24vw;
-    height: 30vw;
+    width: 26vw;
+    height: 32vw;
+    object-fit: cover;
 }
 
 /* 会社情報 ここまで */
 
+
+/* ACESS SNSエリア */
+.top-access-sns-main {
+    position: relative;
+    top: -10rem;
+    z-index: 1;
+    height: 45vw;
+    background-color: rgba(0, 60, 51, 1);
+    padding-top: 6rem;
+}
+
+.top-access-sns-area {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.access-sns-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.acsns-text {
+    color: #FFF;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.access-top, .twitter-top {
+    margin-top: 1rem;
+}
+
+.twitter-top {
+    border: 1px solid #EEE;
+    padding: 10px;
+}
+
+.more-btn-asns {
+    margin-top: 3.5rem;
+}
 
 /* footer */
 .footer {
