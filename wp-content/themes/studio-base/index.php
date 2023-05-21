@@ -36,10 +36,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="topAdbCompany">
+            </div>
+            <div class="topAdbCompany">
                     <div class="topAdbComp-Area">
                         <div class="topAdb-Conpany-detail">
                             <div class="topAdb-text-area">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/human.jpg" alt="社長" class="human-img">
                                     <span>株式会社おにぎりや</span>
                                     <h3>代表取締役 <span>山田太郎</span></h3>
                                     <p>
@@ -50,7 +52,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <div class="topNewsArea">

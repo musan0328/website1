@@ -39,6 +39,7 @@ header {
 
 #gnav ul {
     overflow: hidden;
+    margin-right: 3rem;
 }
 
 .inner-main-area {
@@ -83,6 +84,7 @@ header {
     font-size: 1.625rem;
     font-weight: 600;
     margin: 0 0 0.5rem;
+    margin-left: 10rem;
 }
 
 .tell-icon {
@@ -101,11 +103,10 @@ header {
 
 .contact-area {
     width: 7rem;
-    height: 5rem;
+    height: 6rem;
     line-height: 1.7rem;
     display: block;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-left: 2.0rem;
 }
 
 .contact-link {
@@ -137,6 +138,9 @@ header {
 .twitter-icon, .insta-icon {
     width: 2.7rem;
     padding-left: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.3rem;
+    margin-right: 0.5rem;
 }
 
 
@@ -202,7 +206,35 @@ header {
 }
 
 .top-img {
-    width: 50vw;
+    width: 45vw;
+    margin-top: -4rem;
+    margin-right: 5rem;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+.topAdbCompany {
+    margin-top: 5rem;
+}
+
+.topAdbComp-Area {
+    position: relative;
+}
+
+
+.topAdb-text-area {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+
+
+.human-img {
+    width: 45vw;
+    height: auto;
 }
 
 
@@ -222,7 +254,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* max-width: 650px; */
+    max-width: 900px;
     padding: 0;
     margin: 0 auto;
 }
@@ -251,9 +283,10 @@ header {
     border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
-
-.news-area-main {
-    /* display: flex; */
+.news:hover {
+    background-color: #EEEEEE;
+    opacity: 0.8;
+    transition: 1s;
 }
 
 .news-link:after {
@@ -266,6 +299,8 @@ header {
     transform: translateY(-50%) rotateZ(45deg);
     height: 0.5rem;
     width: 0.5rem;
+    position: relative;
+    top: -2.5rem;
 }
 
 .news-area {
@@ -323,6 +358,7 @@ header {
 .footer-menu-list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .footer-menu-text {
@@ -342,15 +378,20 @@ header {
 .sns-area-footer {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .sns-icon-footer {
     width: 2.5rem;
+    margin: 2rem 2rem 2rem;
 }
 
 .copyright-menu {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 
 .cp-menu-list {
@@ -366,4 +407,5 @@ header {
 
 .cpr-text {
     text-align: center;
+    margin-bottom: 2rem;
 }
